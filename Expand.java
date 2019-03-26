@@ -19,6 +19,8 @@ public class Expand {
 		//to improve your code such that you can use values greater or equal 10, eg. 10a13b22c
 		//Further modification: if a character should only be printed one time you don't need to write any number infront of that character
 		//e.g. a3b12cd5e -> abbbccccccccccccdeeeee  
+
+		//Does not compile (revisit: Scopes)
 		
 	}
 	public static char doPrint(String a) {

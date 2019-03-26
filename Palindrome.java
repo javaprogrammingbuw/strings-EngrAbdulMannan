@@ -14,6 +14,9 @@ public class Palindrome{
 
 }
 	public static boolean isPalindrome(String a) {
+
+		//This just works for the trivial case
+
 		a.replace("\\s", "");
 		for (int i=0;i<a.length()/2;i++) {
 			if(a.charAt(i)!=a.charAt(a.length()-1-i)   ){
